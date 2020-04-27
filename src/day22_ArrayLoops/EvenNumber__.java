@@ -13,7 +13,7 @@ public class EvenNumber {
 
     public static void main(String[] args) {
 
-        int[] numbers = new int[200];//index:0-100,
+        int[] numbers = new int[99];//index:0-100,
 
         /*
          numbers[0] = 1;
