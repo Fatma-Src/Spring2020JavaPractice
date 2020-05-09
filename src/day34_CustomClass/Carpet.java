@@ -8,7 +8,7 @@ public class Carpet {
     double unitPrice;
     boolean isPersian;
 
-    public double calsCost(){
+    public double calcCost(){
         double total= (width+length)*unitPrice;
         if (isPersian){
             return total+200;
@@ -32,7 +32,7 @@ public class Carpet {
         return "width $ "+width+
                 "\nlength $"+length+
                 "\nunit price $"+ unitPrice+
-                "\n Total cost $ "+calsCost()
+                "\n Total cost $ "+calcCost()
 
 
 
