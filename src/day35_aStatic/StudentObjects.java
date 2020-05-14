@@ -1,6 +1,6 @@
 package day35_aStatic;
 
-public class StudentObjects {
+public class   StudentObjects {
     public static void main(String[] args) {
         Student student1= new Student();
         student1.name="Muhtar";
